@@ -231,7 +231,7 @@ h1::after
 .img-box ul
 {
 	padding: 15px 0;
-	position: absolute;
+	position: center;
 	z-index: 2;
 	bottom: 0;
 	left: 50%
@@ -241,7 +241,7 @@ h1::after
 
 .img-box ul li
 {
-	padding: 5px;
+	padding: 10px;
 	display: inline-block;
 }
 
