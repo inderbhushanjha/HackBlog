@@ -2,17 +2,19 @@
 {
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 
 }
 /*---------------NavBar-------*/
 #nav-bar
 {	
-	position: sticky;
+	position:sticky;
 	top: 0;
 	z-index: 10;
+	/* transition: all 0.3s ease 0s; */
 }
 .navbar-brand img
-{
+{	color: white !important;
 	height: 70px;
 	width: 70px;
 	padding: 10px;
@@ -225,7 +227,7 @@ h1::after
 	color: #007bff !important;
 	background: #fff;
 	padding: 4px;
-	border-radius: 50%;
+	border-radius: 50px;
 }
 
 .img-box ul
@@ -251,5 +253,15 @@ h1::after
 }
 .img-box, .img-box ul li
 {
-	transition: 0.5s;
+	transition: 0.2s;
+}
+.content-flow{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
