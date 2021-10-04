@@ -10,7 +10,7 @@
 {	
 	position:sticky;
 	top: 0;
-	z-index: 10;
+	z-index: 50;
 	/* transition: all 0.3s ease 0s; */
 }
 .navbar-brand img
@@ -165,6 +165,7 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #555; 
+	justify-content: center;
 }
 h1
 {
@@ -184,13 +185,15 @@ h1::after
 }
 .profile-pic
 {
-	margin-top: 25px;
+	margin: 25px;
+
 }
 
 .profile-pic .img-box
 {
 	opacity: 1;
-	display: block;
+	display:contents;	
+	justify-content: space-between;
 	position: relative;
 }
 
@@ -234,7 +237,7 @@ h1::after
 {
 	padding: 15px 0;
 	position: center;
-	z-index: 2;
+	z-index: 1;
 	bottom: 0;
 	left: 50%
 	transform: translateX(-50%);
@@ -245,6 +248,7 @@ h1::after
 {
 	padding: 10px;
 	display: inline-block;
+	/* float: left; */
 }
 
 .img-box:hover ul
