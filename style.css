@@ -6,7 +6,7 @@
 }
 /*---------------NavBar-------*/
 #nav-bar
-{
+{	
 	position: sticky;
 	top: 0;
 	z-index: 10;
@@ -32,7 +32,7 @@
 }
 .navbar
 {
-	background: #fff;
+	background: #008ae6 !important ;
 }
 .navbar-toggler
 {
@@ -40,7 +40,7 @@
 }
 .nav-link
 {
-	color: #555!important;
+	color:white !important;
 	font-weight:600;
 	font-size: 16px
 }
